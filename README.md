@@ -9,7 +9,7 @@
 Part-Time Pet API is the middleware created to handle all queries to the database.
 Part-Time Pet uses Firebase as a database, however, this API is handling ALL the requests to firebase and to a separate geolocation API except authentication which is handled through front-end exclusively.
 
-This allowed front-end to have fewer responsibilities as data is handled here and served to the front-end in a desired format. 
+This allowed front-end to have fewer responsibilities as data is handled here and served to the front-end in a desired format.
 
 ## Available endpoints:
 
@@ -38,4 +38,6 @@ This API was built using Test Driven Development (TDD). Extensive testing has be
 
 [Express](https://expressjs.com/)
 
+### Things to note:
 
+This repo is not intended to be cloned and used. It is part of Part-Time pet app and specific files that link this repo to our firebase database cannot be shared for security reasons. Tests also use data in a separate firebase database that gets reseeded on each test run.
